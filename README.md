@@ -2,7 +2,7 @@
 
 Alguns dos códigos desenvolvidos para o projeto CTBr (url?) estão disponíveis em Open Source.
 
-`lattes.py` reúne duas funções escritas em Python 2.7 para automatizar a coleta e a extração de dados de CV Lattes. Esses códigos podem ser usados para desenvolver novos componentes para o C&T Brasil, uma vez que o dict de saída estabelece o padrão para os processamentos subsequentes. Um protótipo desenvolvido a partir dessa estrutura de dados pode ser depois mais facilmente incorporado ao sistema.
+`lattes.py` reúne duas funções escritas em Python 2.7 para automatizar a coleta e a extração de dados de CV Lattes. Esses códigos podem ser usados para desenvolver novos componentes para o C&T Brasil, uma vez que o dict de saída estabelece o padrão para os processamentos subsequentes. Um protótipo desenvolvido a partir dessa estrutura de dados pode ser mais facilmente incorporado ao sistema.
 
 Há seções dos currículos que atualmente não são aproveitadas e para as quais ainda é preciso escrever o código de extração e pré-processamento. Voluntários?
 
