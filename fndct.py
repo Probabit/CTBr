@@ -11,12 +11,10 @@ Fora isso, valem as regras e a ética do Open Source
 
 '''
 
-
 # dependencias externas (instalar antes de usar)
 from BeautifulSoup import UnicodeDammit
 from lxml import html
 from lxml.html.clean import Cleaner
-
 
 def bot_fndct(n): 
     import urllib2
@@ -136,9 +134,9 @@ def parserFNDCT(pagina):
         orgs = orgs[p2+1:]
         p1 = orgs.find(u'(Instituição ')
     
-    from vyger import vtitulo
+    from vyger import vtitulo  #opcional
     fndct = {'projeto': projeto,
-             'titulo': vtitulo(titulo),
+             'titulo': vtitulo(titulo),  #opcional: titulo
              'demanda': demanda,
              'tipo': tipo,
              'ag': ag,
@@ -155,4 +153,3 @@ def parserFNDCT(pagina):
              'desembolso':desembolso,
              }
     return fndct
-
