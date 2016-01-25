@@ -1,6 +1,6 @@
 ##CTBr `C&T Brasil`
 
-Alguns dos códigos desenvolvidos para o projeto CTBr (www.ctbrasil.net.br) estão disponíveis em Open Source.
+Alguns dos códigos desenvolvidos para o projeto CTBr (www.ctbrasil.net.br) ficaram disponíveis em Open Source.
 
 `lattes.py` reúne duas funções escritas em Python 2.7 para automatizar a coleta e a extração de dados de CV Lattes. Esses códigos podem ser usados para desenvolver novos componentes para o C&T Brasil, uma vez que o dict de saída estabelece o padrão para os processamentos subsequentes. Um protótipo desenvolvido a partir dessa estrutura de dados pode ser mais facilmente incorporado ao sistema.
 
